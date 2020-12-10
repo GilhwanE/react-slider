@@ -33,3 +33,14 @@
   cursor: pointer;
   user-select: none;
 }
+
+.slide {
+  opacity: 0;
+  transition-duration: 1s ease;
+}
+
+.slide.active{
+  opacity: 1;
+  transition-duration: 1s;
+  transform: scale(1.1);
+}
