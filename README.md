@@ -3,7 +3,7 @@
 ### Skill stack
 <h4>React
 <hr>
-### page view
+### Page view
 <hr>
 Left Arrow </br>
 Rigth Arrow </br>
