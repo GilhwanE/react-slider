@@ -11,19 +11,17 @@ const nextSlide = () => {
 }
 
 const preSlide = () => {
-    setCurrent(current ===0 ? 4 : current-1)
+    setCurrent(current === 0 ? 4 : current-1)
 }
 
 if(!Array.isArray(slides) || slides.length <=0 ) {
     return null;
 }
-
     return (
         <section className="slider">
             <FaArrowAltCircleLeft className="left-arrow"  onClick={preSlide}/>
             <FaArrowAltCircleRight className="right-arrow"  onClick={nextSlide} />
-        {SliderData.map((slide, index) => {
-            
+        {SliderData.map((slide, index) => {           
             return( 
             <div className={index === current ? 'slide active' : 'slide'} 
                 key={index}
@@ -32,7 +30,6 @@ if(!Array.isArray(slides) || slides.length <=0 ) {
                     <img src={slide.image} alt="travel image" className="image"/>
                 )}
             </div>
-                
             )})}
         </section>
     );
