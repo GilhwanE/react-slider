@@ -2,6 +2,7 @@
 
 ### Skill stack
 <h4>React
+  URL : https://gilhwane.github.io/react-slider/
 <hr>
 
 when button click Slide Image
